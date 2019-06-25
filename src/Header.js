@@ -10,6 +10,7 @@ export default class Header extends Component {
   handleToggle = () => {
     console.log('here');
     this.setState({darkMode: !this.state.darkMode})
+    this.props.handleToggle()
   }
 
   render() {
