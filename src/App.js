@@ -16,7 +16,7 @@ export default class App extends Component {
   render() {
     return (
       <div id="wrapper" className={this.state.darkMode ? "dark-mode" : null}>
-        <Header handleToggle={this.handleToggle} />
+        <Header handleToggle={this.handleToggle} darkMode={this.state.darkMode}/>
         <TweetsContainer />
       </div>
     )
