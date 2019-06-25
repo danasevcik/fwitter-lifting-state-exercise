@@ -2,11 +2,11 @@
 
 Welcome to Fwitter, a twitter application from Flatiron Coaches who don't use Twitter much! In this application, you can view tweets from four Twitter users. It's also got a dark mode theme toggle because dark mode is all the rage these days.
 
-Your deliverables:
+Your deliverables: 
 
 ## 1. Toggle dark mode in the Header component
 
-Our `<Header>` component has a dark mode theme feature that can be enabled by clicking on the toggle. Get that working! 
+Our `<Header>` component has a dark mode theme feature that can be enabled by clicking on the toggle. Get that working!
 
 ## 2. Toggle dark mode throughout the application
 
@@ -18,9 +18,9 @@ It's nice having a theme applied to the nav bar, but what if we want that theme 
 </div>
 ```
 
-HINT: You may need to change where state is being set to get this feature to work. 
+HINT: You may need to change where state is being set to get this feature to work.
 
-## 3. Click 'View Tweets' on the user card to view the user's tweets 
+## 3. Click 'View Tweets' on the user card to view the user's tweets
 
 We're currently only able to see the tweets for one user! Our data is being loaded in `<TweetsContainer>` in the format below. Find a way to change which user's tweets are being displayed.
 
